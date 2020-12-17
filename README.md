@@ -5,15 +5,15 @@ Implement simple client and server Socket using TCP protocol which performs belo
 2.After I/P Client Will Prompt to Provide Marks in 3 Subjects: Physics, Chemistry & Mathematics 
 3.After Updating the Details, Confirmation on successful update must come from server:
 
-goto bash run
-Run Server:
-$gcc server.c -o server.out
+#goto bash run
+#Run Server:
+#$gcc server.c -o server.out
 
 
-Run client:
-$gcc client.c -o client.out
-./client.out <Server IP>  9000  
-Note: port bind to default 9000 in given sample code
+#Run client:
+#$gcc client.c -o client.out
+#./client.out <Server IP>  9000  
+#Note: port bind to default 9000 in given sample code
   
 Sample output after running client:
 
